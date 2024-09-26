@@ -1,0 +1,98 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" version="24.7.14">
+  <diagram name="Page-1" id="cA2wVGBj6NUlGLia6zEg">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Processes" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="296" y="253" width="286" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Elimination" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="10" y="741" width="234" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Peripheral Compartment" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="347" y="424" width="185" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Central Compartment" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="8" y="8" width="268" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Dose" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="108" y="33" width="49" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Drug" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="85" y="132" width="93" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Metabolite" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="64" y="595" width="137" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Tissue" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="387" y="449" width="104" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="Excretion" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="68" y="766" width="128" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="Central Compartment" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="331" y="278" width="216" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.49;exitY=0.99;entryX=0.5;entryY=-0.01;" edge="1" parent="1" source="6" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.24;exitY=0.98;entryX=0.31;entryY=-0.01;" edge="1" parent="1" source="7" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="70" y="216" />
+              <mxPoint x="70" y="558" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="Distribution" style="curved=1;startArrow=none;endArrow=block;exitX=0.51;exitY=0.98;entryX=0;entryY=0.32;" edge="1" parent="1" source="7" target="9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="134" y="216" />
+              <mxPoint x="134" y="424" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" value="Distribution" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.98;entryX=0.67;entryY=-0.01;" edge="1" parent="1" source="9" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="439" y="522" />
+              <mxPoint x="193" y="558" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" value="Elimination" style="curved=1;startArrow=none;endArrow=block;exitX=0.31;exitY=0.98;entryX=0.3;entryY=-0.01;" edge="1" parent="1" source="8" target="10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="668" />
+              <mxPoint x="80" y="741" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17" value="Absorption" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.77;exitY=0.98;entryX=0;entryY=0.04;" edge="1" parent="1" source="7" target="11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="194" y="216" />
+              <mxPoint x="194" y="253" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18" value="Distribution" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.5;exitY=0.98;entryX=0.5;entryY=-0.01;" edge="1" parent="1" source="11" target="9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19" value="Elimination" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.69;exitY=0.98;entryX=0.7;entryY=-0.01;" edge="1" parent="1" source="8" target="10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="185" y="668" />
+              <mxPoint x="185" y="741" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
