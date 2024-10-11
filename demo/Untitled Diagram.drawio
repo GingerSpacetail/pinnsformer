@@ -330,7 +330,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dce21k1JnqVtqL4-GlXm-164" value="Endoscytosed Complex (\rho^endo_P + \nu*\rho^free_R)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="dce21k1JnqVtqL4-GlXm-164" value="Endoscytosed Complex (\rho^endo_PR + \nu)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1570" y="108.79" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dce21k1JnqVtqL4-GlXm-167" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dce21k1JnqVtqL4-GlXm-157" target="dce21k1JnqVtqL4-GlXm-164">
