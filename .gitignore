@@ -1,0 +1,39 @@
+#ignore macos files
+.DS_Store
+
+#ignore unfinished files
+DEMO_README.md
+phase_space_demo.ipynb
+bifurcation_analysis.py
+
+# unfinished animation files
+ANIMATION_README.md
+/media
+ai_epidemiology_animations.py
+advanced_epidemiology_animations.py
+render_animations.py
+
+
+#test run files
+test_run.ipynb
+test_minimal.py
+test_basic_model.py
+test_plot.png
+comprehensive_test.png
+test_demos.py
+
+# cache files
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+*.pywz
+*.pyzw
+
+#ignore images created
+*.png
+
+#drawoi diagrams
+*.drawio

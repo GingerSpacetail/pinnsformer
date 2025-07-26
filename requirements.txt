@@ -1,0 +1,13 @@
+# Core dependencies for PINNsFormer
+torch
+numpy
+matplotlib
+tqdm
+scipy
+
+# Jupyter notebook support
+jupyter
+ipykernel
+
+# Optional: For CUDA support, install appropriate PyTorch version
+# Visit https://pytorch.org/get-started/locally/ for CUDA-specific installation

@@ -38,3 +38,38 @@ If you find our work useful, please cite our work:
   year={2023}
 }
 ```
+## AI Agentic Systems Epidemiology Extension (AI Safety x Physics)
+
+**New Components:**
+- **`ai_epidemiology_model.py`**: SEIR epidemiological model for AI agent security, with PINN solver
+- **`bifurcation_analysis.py`**: Bifurcation and stability analysis for intervention strategies
+- **`demo/ai_epidemiology/`**: Jupyter notebook demonstrating the model
+
+**AI Agent SEIR Model:**
+- **S(t)**: Susceptible agents (vulnerable to attacks)
+- **E(t)**: Exposed agents (compromised but not spreading)
+- **I(t)**: Infected agents (exhibiting malignant behavior)
+- **R(t)**: Removed agents (isolated/patched/immunized)
+
+**Key Parameters:**
+- **β**: Attack transmission rate (depends on ASR)
+- **σ**: Incubation rate (exposed → infected)
+- **γ**: Detection/isolation rate
+- **ν**: Immunization/patching rate
+- **α**: External attack pressure
+
+**Applications:**
+- Model attack spread in multi-agent AI systems
+- Analyze intervention strategies and critical thresholds
+- Identify bifurcation points for early warning systems
+- Optimize resource allocation for cybersecurity
+
+**Run AI epidemiology model analysis:**
+```bash
+python3 ai_epidemiology_model.py
+```
+
+**Run bifurcation analysis:**
+```bash
+python3 bifurcation_analysis.py
+```
