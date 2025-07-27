@@ -3,8 +3,8 @@
 
 #ignore unfinished files
 DEMO_README.md
-phase_space_demo.ipynb
-bifurcation_analysis.py
+#phase_space_demo.ipynb
+#bifurcation_analysis.py
 
 # unfinished animation files
 ANIMATION_README.md
