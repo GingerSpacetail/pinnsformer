@@ -1,75 +1,11 @@
-# PINNsFormer: A Transformer-Based Framework For Physics-Informed Neural Networks
+# Assessing and Managing AI Agentic System Vulnerability via Epidemiological Dynamics and Physics-Informed Neural Networks
 
-## Publication
+Research conducted at the AI Safety x Physics Grand Challenge, 2025. [Project Link](https://apartresearch.com/project/ai-agentic-system-epidemiology-b83r)
 
-Implementation of the paper "PINNsFormer: A Transformer-Based Framework For Physics-Informed Neural Networks."
+## Overview
 
-Authors: Leo Zhiyuan Zhao, Xueying Ding, B.Aditya Prakash
+Language‑based AI agents are increasingly deployed across domains, from customer support to autonomous trading agents. However, the agents can be compromised by adversarial inputs (e.g., prompt injections), propagate misinformation learned from uncurated data, or miscommunicate in multi-agent settings. This project demonstrates how Physics-Informed Neural Networks (PINNs) can help evaluate and manage systemic risks for large-scale AI agent deployments.
 
-Placement: ICLR 2024 Poster
+<img src="assets/ai_seir_diagram.png" alt="AI Agent SEIR Epidemiological Model Overview" width="600">
 
-Paper + Appendix: [https://arxiv.org/abs/2307.11833](https://arxiv.org/abs/2307.11833)
-
-## Training
-
-We also provide demo notebooks for convection, 1d_reaction, 1d_wave, and Navier-Stokes PDEs. The demos include all code for training, testing, and ground truth acquirement.
-
-To visualize the loss landscape, run the above command to train and save the model first, then run the script:
-
-```
-python3 vis_landscape.py
-```
-
-Please adapt the model path accordingly.
-
-## Contact
-
-If you have any questions about the code, please contact Leo Zhiyuan Zhao at  ```leozhao1997[at]gatech[dot]edu```.
-
-## Citation
-
-If you find our work useful, please cite our work:
-
-```
-@article{zhao2023pinnsformer,
-  title={PINNsFormer: A Transformer-Based Framework For Physics-Informed Neural Networks},
-  author={Zhao, Leo Zhiyuan and Ding, Xueying and Prakash, B Aditya},
-  journal={arXiv preprint arXiv:2307.11833},
-  year={2023}
-}
-```
-## AI Agentic Systems Epidemiology Extension (AI Safety x Physics)
-
-**New Components:**
-- **`ai_epidemiology_model.py`**: SEIR epidemiological model for AI agent security, with PINN solver
-- **`bifurcation_analysis.py`**: Bifurcation and stability analysis for intervention strategies
-- **`demo/ai_epidemiology/`**: Jupyter notebook demonstrating the model
-
-**AI Agent SEIR Model:**
-- **S(t)**: Susceptible agents (vulnerable to attacks)
-- **E(t)**: Exposed agents (compromised but not spreading)
-- **I(t)**: Infected agents (exhibiting malignant behavior)
-- **R(t)**: Removed agents (isolated/patched/immunized)
-
-**Key Parameters:**
-- **β**: Attack transmission rate (depends on ASR)
-- **σ**: Incubation rate (exposed → infected)
-- **γ**: Detection/isolation rate
-- **ν**: Immunization/patching rate
-- **α**: External attack pressure
-
-**Applications:**
-- Model attack spread in multi-agent AI systems
-- Analyze intervention strategies and critical thresholds
-- Identify bifurcation points for early warning systems
-- Optimize resource allocation for cybersecurity
-
-**Run AI epidemiology model analysis:**
-```bash
-python3 ai_epidemiology_model.py
-```
-
-**Run bifurcation analysis:**
-```bash
-python3 bifurcation_analysis.py
-```
+To analyze the propagation of adversarial behavior in large AI agent populations, we use a Susceptible‑Exposed‑Infectious‑Removed (SEIR) compartmental model from epidemiology. Agents transition between states according to interactions with peers, external adversaries, and intervention policies. We then apply PINNs to approximate the solution trajectories of the governing ordinary differential equations (ODEs), leveraging known physical structure while accommodating complex, nonlinear dynamics.
